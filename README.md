@@ -5,7 +5,7 @@ This repository contains derived data products for [Berg et al. (2025)](https://
 For primary connectome data artefacts (segmentation, synapse detection, etc.), please see https://male-cns.janelia.org/.
 
 
-### Sensorimotor Information Flow
+## Sensorimotor Information Flow
 
 #### [`maxflow_sensorimotor_edges.20250911T1351.parquet.tar.gz`](/supplemental_data/maxflow_sensorimotor_edges.20250911T1351.parquet.tar.gz)
 Maxflow values across all neuron-neuron edges for all combinations of sensory modality and motor domains.
