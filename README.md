@@ -135,6 +135,17 @@ The neuron-to-label assignment for male CNS and FlyWire neurons used to generate
 ```
 </details>
 
+## Synapse precision and recall
+
+### [`male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv)
+
+The precision and recall of pre-synapse (t-bar) predictions based on validation data collected in 81 neuropil compartments.  This is the source data for the upper plot in Fig 1i of Berg _et al._ (2025).
+
+### [`male-cns-v0.9-synapse-connection-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv)
+
+The precision and recall of predicted pre-to-post synaptic connections based on validation data collected in 81 neuropil compartments.  This is the source data for the lower plot in Fig 1i of Berg _et al._ (2025).
+
+
 ## Citation
 
 ```bibtex
