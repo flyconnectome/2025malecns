@@ -2,7 +2,7 @@
 
 This repository contains derived data products for [Berg et al. (2025)](https://www.biorxiv.org/content/10.1101/2025.10.09.680999).
 
-For primary connectome data artefacts (segmentation, synapse detection, etc.) as well as a range of interactive online reosources, please see https://male-cns.janelia.org/.
+For primary connectome data artefacts (segmentation, synapse detection, etc.) as well as a range of interactive online resources, please see https://male-cns.janelia.org/.
 
 
 ## Sensorimotor Information Flow
