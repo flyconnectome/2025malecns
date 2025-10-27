@@ -5,6 +5,12 @@ This repository contains derived data products for [Berg et al. (2025)](https://
 For primary connectome data artefacts (segmentation, synapse detection, etc.) as well as a range of interactive online resources, please see https://male-cns.janelia.org/.
 
 
+## Quantification of neuron and connection counts
+
+#### [`quantify-neuron-connections.ipynb`]
+A Python notebook counting the number of neurons and connections between them
+(after thresholding by connection strength) based on our published data exports.
+
 ## Sensorimotor Information Flow
 
 #### [`maxflow_sensorimotor_edges.20250911T1351.parquet.tar.gz`](/supplemental_data/maxflow_sensorimotor_edges.20250911T1351.parquet.tar.gz)
