@@ -152,6 +152,55 @@ The precision and recall of pre-synapse (t-bar) predictions based on validation 
 The precision and recall of predicted pre-to-post synaptic connections based on validation data collected in 81 neuropil compartments.  This is the source data for the lower plot in Fig 1i of Berg _et al._ (2025).
 
 
+## Hierarchical SBM communities
+
+#### [`mcns_lvl_6_hsbm_communities.feather`](/supplemental_data/mcns_lvl_6_hsbm_communities.feather)
+Details of the 305 communities from the most granular (level 6) greedy hierarchical stochastic block model fit of the male central brain, sorted by most largest proportion of non-isomorphic types present:
+- `community_id`: order of appearance in the hierarchical visualisation and adjacency matrix (figure 9a, b). 
+- `types`: list of cell types.
+- `type_n`: number of cell types in community.
+- `type_iod`: dictionary of the number of cell types that are isomorphic (0), dimorphic (1) or male-specific (2).
+- `bodyId`: list of neuron ids.
+- `neuron_iod`: dictionary of the number of neurons that are isomorphic (0), dimorphic (1) or male-specific (2).
+- `enriched`: enrichment status for dimorphic or male-speicfic cell types.
+
+<details>
+<summary>Example with code</summary>
+
+```python
+>>> import pandas as pd
+>>> df = pd.read_feather("mcns_lvl_6_hsbm_communities.feather")
+>>> df.head()
+   community_id                                              types  type_n  \
+0           158  [P1_2a/2b, P1_1b, mAL_m8, mAL_m11, SIP100m, mA...      52   
+1             8  [SIP143m, PVLP210m, P1_13b, P1_13c, P1_14a, AO...      48   
+2           237  [SIP146m, AVLP735m, AVLP731m, AVLP255, AVLP732...      49   
+3           142  [SMP193, P1_17a, pC1c, pC1x_d, P1_17b, SMP719m...      40   
+4           177  [aIPg2, AOTU061, AOTU062, SMP493, SMP574, P1_8...      27   
+
+                           type_iod  \
+0  {'0': None, '1': 1.0, '2': 51.0}   
+1  {'0': None, '1': 1.0, '2': 47.0}   
+2   {'0': 4.0, '1': 5.0, '2': 40.0}   
+3   {'0': 4.0, '1': 7.0, '2': 29.0}   
+4  {'0': 4.0, '1': 10.0, '2': 13.0}   
+
+                                              bodyId  \
+0  [12681, 13029, 17387, 26993, 16262, 14050, 230...   
+1  [15059, 16671, 10820, 15362, 12796, 13872, 177...   
+2  [22953, 29690, 107194, 28724, 515056, 519121, ...   
+3  [38228, 560878, 257510, 514983, 14698, 521225,...   
+4  [123762, 42283, 10878, 46817, 75299, 44511, 54...   
+
+                     neuron_iod  enriched  
+0    {'0': 0, '1': 2, '2': 257}      True  
+1   {'0': 0, '1': 11, '2': 166}      True  
+2  {'0': 17, '1': 25, '2': 159}      True  
+3  {'0': 13, '1': 20, '2': 142}      True  
+4   {'0': 17, '1': 73, '2': 50}      True  ```
+</details>
+
+
 ## Citation
 
 ```bibtex
