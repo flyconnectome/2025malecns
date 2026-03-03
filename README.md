@@ -152,6 +152,12 @@ The precision and recall of pre-synapse (t-bar) predictions based on validation 
 The precision and recall of predicted pre-to-post synaptic connections based on validation data collected in 81 neuropil compartments.  This is the source data for the lower plot in Fig 1i of Berg _et al._ (2025).
 
 
+## Synapse capture
+
+### [`male-cns-v0.9-traced-synapse-capture-by-roi.csv`](/supplemental_data/male-cns-v0.9-traced-synapse-capture-by-roi.csv)
+
+For each neuropil compartment, the fractions of pre- and post-synapses belonging to proofread neurons and the fraction of synaptic connections where _both_ the pre- and post-synaptic object are proofread neurons. This is the source data for the bar plots shown in Fig 1d and Fig S9g of Berg _et al._ (2025).
+
 ## Citation
 
 ```bibtex
