@@ -143,18 +143,18 @@ The neuron-to-label assignment for male CNS and FlyWire neurons used to generate
 
 ## Synapse precision and recall
 
-### [`male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv)
+### [`male-cns-v1.0-synapse-tbar-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v1.0-synapse-tbar-precision-recall-by-roi.csv)
 
 The precision and recall of pre-synapse (t-bar) predictions based on validation data collected in 81 neuropil compartments.  This is the source data for the upper plot in Fig 1i of Berg _et al._ (2025).
 
-### [`male-cns-v0.9-synapse-connection-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v0.9-synapse-tbar-precision-recall-by-roi.csv)
+### [`male-cns-v1.0-synapse-connection-precision-recall-by-roi.csv`](/supplemental_data/male-cns-v1.0-synapse-tbar-precision-recall-by-roi.csv)
 
 The precision and recall of predicted pre-to-post synaptic connections based on validation data collected in 81 neuropil compartments.  This is the source data for the lower plot in Fig 1i of Berg _et al._ (2025).
 
 
 ## Synapse capture
 
-### [`male-cns-v0.9-traced-synapse-capture-by-roi.csv`](/supplemental_data/male-cns-v0.9-traced-synapse-capture-by-roi.csv)
+### [`male-cns-v1.0-traced-synapse-capture-by-roi.csv`](/supplemental_data/male-cns-v1.0-traced-synapse-capture-by-roi.csv)
 
 For each neuropil compartment, the fractions of pre- and post-synapses belonging to proofread neurons and the fraction of synaptic connections where _both_ the pre- and post-synaptic object are proofread neurons. This is the source data for the bar plots shown in Fig 1d and Fig S9g of Berg _et al._ (2025).
 
