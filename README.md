@@ -77,7 +77,7 @@ Mean, median, minimum and maximum layers after 10,000 iterations of graph traver
 
 ## Optic lobe column assignment
 
-#### [`optic-column-type-assignments.xlsx`](/supplemental_data/optic-column-type-assignments.xlsx)
+#### [`optic-column-type-assignments-v1.0.xlsx`](/supplemental_data/optic-column-type-assignments-v1.0.xlsx)
 For each visual column of the left and right optic lobe: IDs of the corresponding L1, R7 and R8 neurons, and column type (pale, yellow, edge, dorsal rim area).  Additional columns indicate the presence of identified vertical aMe12 and/or Tm5a branches which serve as anatomical markers to identify likely pale/yellow columns (see Methods).
 
 <details>
@@ -85,7 +85,7 @@ For each visual column of the left and right optic lobe: IDs of the correspondin
 
 ```python
 >>> import pandas as pd
->>> df = pd.read_excel("optic-column-type-assignments.xlsx")
+>>> df = pd.read_excel("optic-column-type-assignments-v1.0.xlsx")
 >>> df.head()
            column     L1      R7  ... aMe12_branch  Tm5a_branch Notes
 0  ME_R_col_10_06  39722  230050  ...            1            0   NaN
