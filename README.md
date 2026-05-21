@@ -161,7 +161,7 @@ For each neuropil compartment, the fractions of pre- and post-synapses belonging
 ## Hierarchical SBM communities
 
 #### [`mcns_lvl_6_hsbm_communities.feather`](/supplemental_data/mcns_lvl_6_hsbm_communities.feather)
-Details of the 305 communities (clusters) at the most granular level (level 6) from the greedy hierarchical stochastic block model fit of the male central brain, sorted by non-isomorphic type enrichment:
+Details of the 311 communities (clusters) at the most granular level (level 6) from the greedy hierarchical stochastic block model fit of the male central brain, sorted by non-isomorphic type enrichment:
 - `community_id`: order of appearance in the hierarchical visualisation and adjacency matrix (figure 9a, b). 
 - `types`: list of cell types.
 - `type_n`: number of cell types in community.
@@ -177,12 +177,12 @@ Details of the 305 communities (clusters) at the most granular level (level 6) f
 >>> import pandas as pd   
 >>> df = pd.read_feather("mcns_lvl_6_hsbm_communities.feather")
 >>> df.head()
-   community_id                                              types  type_n                          type_iod                                             bodyId                    neuron_iod  enriched
-0           158  [P1_2a/2b, P1_1b, mAL_m8, mAL_m11, SIP100m, mA...      52  {'0': None, '1': 1.0, '2': 51.0}  [12681, 13029, 17387, 26993, 16262, 14050, 230...    {'0': 0, '1': 2, '2': 257}      True
-1             8  [SIP143m, PVLP210m, P1_13b, P1_13c, P1_14a, AO...      48  {'0': None, '1': 1.0, '2': 47.0}  [15059, 16671, 10820, 15362, 12796, 13872, 177...   {'0': 0, '1': 11, '2': 166}      True
-2           237  [SIP146m, AVLP735m, AVLP731m, AVLP255, AVLP732...      49   {'0': 4.0, '1': 5.0, '2': 40.0}  [22953, 29690, 107194, 28724, 515056, 519121, ...  {'0': 17, '1': 25, '2': 159}      True
-3           142  [SMP193, P1_17a, pC1c, pC1x_d, P1_17b, SMP719m...      40   {'0': 4.0, '1': 7.0, '2': 29.0}  [38228, 560878, 257510, 514983, 14698, 521225,...  {'0': 13, '1': 20, '2': 142}      True
-4           177  [aIPg2, AOTU061, AOTU062, SMP493, SMP574, P1_8...      27  {'0': 4.0, '1': 10.0, '2': 13.0}  [123762, 42283, 10878, 46817, 75299, 44511, 54...   {'0': 17, '1': 73, '2': 50}      True
+   community_id                                              types  type_n                           type_iod                                             bodyId                    neuron_iod  enriched
+0           102  [mAL_m3a, SIP100m, SIP124m, pC1_4b, SIP103m, m...      52   {'0': None, '1': 1.0, '2': 51.0}  [12681, 13029, 84395, 515272, 515541, 18172, 4...    {'0': 0, '1': 2, '2': 253}      True
+1            79  [SIP110m_b, SIP110m_a, SIP111m, SIP115m, SIP12...      43  {'0': None, '1': None, '2': 43.0}  [13798, 45643, 13365, 45951, 13089, 13177, 138...    {'0': 0, '1': 0, '2': 150}      True
+2           116  [pC1_7b, AVLP745m, AVLP744m, pC1_11b, AVLP739m...      49    {'0': 3.0, '1': 6.0, '2': 40.0}  [19711, 22336, 22676, 26343, 518176, 521014, 2...  {'0': 12, '1': 30, '2': 163}      True
+3           153  [pC1b, pC1a, SMP723m, SMP721m, SMP720m, SCL002...      36    {'0': 3.0, '1': 7.0, '2': 26.0}  [38228, 257510, 514983, 560878, 13913, 17190, ...  {'0': 11, '1': 22, '2': 148}      True
+4            81  [SCL001m, CL342, AVLP709m, SMP574, CL311, CB06...      26    {'0': 1.0, '1': 7.0, '2': 18.0}  [12071, 12508, 31124, 530938, 10245, 10712, 11...    {'0': 4, '1': 33, '2': 70}      True
 ```
 </details>
 
