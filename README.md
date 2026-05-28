@@ -7,7 +7,7 @@ For primary connectome data artefacts (segmentation, synapse detection, etc.) as
 
 ## Quantification of neuron and connection counts
 
-#### [`quantify-neuron-connections.ipynb`]
+#### [`quantify-neuron-connections.ipynb`](/supplemental_data/quantify-neuron-connections.ipynb)
 A Python notebook counting the number of neurons and connections between them
 (after thresholding by connection strength) based on our published data exports.
 
@@ -162,7 +162,7 @@ For each neuropil compartment, the fractions of pre- and post-synapses belonging
 
 #### [`mcns_lvl_6_hsbm_communities.feather`](/supplemental_data/mcns_lvl_6_hsbm_communities.feather)
 Details of the 311 communities (clusters) at the most granular level (level 6) from the greedy hierarchical stochastic block model fit of the male central brain, sorted by non-isomorphic type enrichment:
-- `community_id`: order of appearance in the hierarchical visualisation and adjacency matrix (figure 9a, b). 
+- `community_id`: order of appearance in the hierarchical visualisation and adjacency matrix (figure 9a, b).
 - `types`: list of cell types.
 - `type_n`: number of cell types in community.
 - `type_iod`: dictionary of the number of cell types that are isomorphic (0), dimorphic (1) or male-specific (2).
@@ -174,7 +174,7 @@ Details of the 311 communities (clusters) at the most granular level (level 6) f
 <summary>Example with code</summary>
 
 ```python
->>> import pandas as pd   
+>>> import pandas as pd
 >>> df = pd.read_feather("mcns_lvl_6_hsbm_communities.feather")
 >>> df.head()
    community_id                                              types  type_n                           type_iod                                             bodyId                    neuron_iod  enriched
